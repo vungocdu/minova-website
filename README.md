@@ -17,7 +17,7 @@ Minova Group là đơn vị hàng đầu Việt Nam chuyên cung cấp **giải 
 - Tích hợp đầy đủ các kênh OTA hàng đầu
 
 📈 **Tối ưu hóa doanh thu cho chủ đầu tư**
-- Tăng tỷ lệ lấp đầy trung bình 25-40%
+- Tăng tỷ lệ lấp đầy trung bình 60-80%
 - Tối ưu hóa RevPAR thông qua định giá động
 - Giảm chi phí vận hành đến 30%
 
@@ -168,7 +168,6 @@ Minova Group là đơn vị hàng đầu Việt Nam chuyên cung cấp **giải 
 |--------|--------|---------|-----------|------------|---------|
 | **The Mansion Hoi An** | Hội An, Quảng Nam | 8 phòng villa | Boutique Villa | Đang vận hành | Tỷ lệ lấp đầy 88.5% |
 | **The Mansion Đà Lạt** | Bảo Prenn, Đà Lạt | 30 phòng + 7 luxury villa | Mountain Resort | Đang thi công | Diện tích 1 hecta |
-| **The Mansion Phu Quoc** | An Thới, Phú Quốc | 29 phòng | Boutique Hotel | Đang xây dựng | Dự kiến khai trương 2025 |
 | **The Mansion Ba Vi** | Ba Vì, Hà Nội | 30 phòng + 7 bungalow | Eco Resort | Đang thiết kế | Quy mô 10 hecta |
 | **Sanayen Villa & Residences** | Đà Nẵng | 10 phòng | Villa Resort | Hoàn thành | Diện tích 350m² |
 
@@ -180,25 +179,15 @@ Minova Group là đơn vị hàng đầu Việt Nam chuyên cung cấp **giải 
 | **69 Boutique by Minova** | Hà Nội | 20 phòng | Boutique Hotel | Quản lý vận hành | ADR cao nhất phân khúc |
 | **The City Block** | Hà Nội/HCM/Đà Nẵng | 71m²/căn | Serviced Apartment | Tư vấn + Vận hành | Tỷ lệ lấp đầy 92% |
 
-#### **DỰ ÁN KHÁCH SẠN CAO CẤP - TƯ VẤN THIẾT KẾ**
-
-| Dự Án | Vị Trí | Quy Mô | Thương Hiệu | Vai Trò | Năm |
-|--------|--------|---------|-------------|---------|-----|
-| **Eastin Hotel & Residence** | Hà Nội | 200+ phòng | Eastin Hotels | Tư vấn nội thất | 2020 |
-| **Movenpick Ha Long** | Hạ Long | 250+ phòng | Accor Hotels | Tư vấn thiết kế | 2021 |
-| **Movenpick Phu Quoc** | Phú Quốc | 300+ phòng | Accor Hotels | Tư vấn thiết kế | 2019 |
-| **Pullman Quang Binh** | Quảng Bình | 200+ phòng | Accor Hotels | Tư vấn thiết kế | 2020 |
-| **MGallery Ha Long** | Hạ Long | 150+ phòng | Accor Hotels | Tư vấn nội thất | 2021 |
-| **InterContinental Nha Trang** | Nha Trang | 280+ phòng | IHG | Tư vấn bán hàng | 2015 |
 
 #### **DỰ ÁN RESORT & SPA NGHỈ DƯỠNG**
 
 | Dự Án | Vị Trí | Quy Mô | Loại Hình | Vai Trò | Kết Quả |
 |--------|--------|---------|-----------|---------|---------|
-| **Sahana Resort & Spa** | Mộc Châu, Sơn La | 50+ phòng | Mountain Resort | Tư vấn tiền khai trương | Thiết kế hoàn thành |
-| **Yên Bình Retreat** | Thạch Thất, Hà Nội | 20+ phòng | Wellness Retreat | Tư vấn thiết kế | Đang xây dựng |
-| **Diamond Bay Resort** | Nha Trang | 200+ phòng | Beach Resort | Tư vấn marketing | 2016 |
-| **Amiana Resort Nha Trang** | Nha Trang | 180+ phòng | Beach Resort | Tư vấn bán hàng | 2017 |
+| **Sahana Resort & Spa** | Mộc Châu, Sơn La | 50+ phòng | Mountain Resort | Tư vấn dịch vụ kỹ thuật | Đang xây dựng |
+| **The Mansion Phú Quốc** | An Thới, Phú Quốc | 36 phòng | Boutique Hotel | Tư vấn dịch vụ kỹ thuật | Đang xây dựng |
+| **Jade of Maichau** | Mai Châu, Hòa Bình | 120 phòng khách sạn | Wellness Retreat | Tư vấn dịch vụ kỹ thuật | Đang xây dựng |
+| **Yên Bình Retreat** | Thạch Thất, Hà Nội | 20+ phòng | Wellness Retreat | Tư vấn dịch vụ kỹ thuật | Đang xây dựng |
 
 #### **DỰ ÁN THƯƠNG MẠI & VĂN PHÒNG**
 
@@ -213,7 +202,7 @@ Minova Group là đơn vị hàng đầu Việt Nam chuyên cung cấp **giải 
 #### **The Mansion Hoi An** (2019-2024)
 ```
 🎯 Tỷ lệ lấp đầy: 88.5% (cao hơn 25% so với thị trường)
-💰 Giá phòng trung bình: $185 (cao nhất phân khúc villa)
+💰 Giá phòng trung bình: $120 (cao nhất phân khúc villa tại Hội An)
 ⭐ Điểm hài lòng khách hàng: 9.2/10 (trên các OTA)
 📱 Đặt phòng trực tiếp: 35% (tiết kiệm hoa hồng $50k+/năm)
 🏆 Thành tích: Top 3 villa được đánh giá cao nhất Hội An
@@ -222,9 +211,11 @@ Minova Group là đơn vị hàng đầu Việt Nam chuyên cung cấp **giải 
 
 #### **69 Boutique by Minova** (2022-2024)  
 ```
-🎯 Tỷ lệ lấp đầy: 85% (trong phân khúc boutique hotel)
+🎯 Tỷ lệ lấp đầy: 85% (trong phân khúc love boutique hotel)
 💰 Doanh thu hàng tháng: $35,000+
-⭐ Điểm Booking.com: 9.0/10
+⭐ Điểm đánh giá:
+   • Booking.com: 9.0/10
+   • Go2Joy: 4.86/5 (hơn 4,000 lượt đánh giá)
 🔄 Tỷ lệ khách quay lại: 38%
 📈 Tăng trưởng doanh thu: 25% năm-qua-năm
 💻 Tỷ lệ đặt phòng trực tiếp: 28%
@@ -243,7 +234,7 @@ Minova Group là đơn vị hàng đầu Việt Nam chuyên cung cấp **giải 
 ### 🏆 Thành Tích Đặc Biệt
 
 #### Giải Thưởng & Chứng Nhận
-- **Michelin Selected Restaurant 2023**: Chapter Restaurant (thuộc The Mansion Hoi An)
+- **Michelin Selected Restaurant 2023**: Chapter Restaurant
 - **SBID International Design Awards 2023**: Winner - Office Design
 - **LIV Hospitality Design Awards**: Honorable Mention - Interior Design
 
@@ -360,6 +351,10 @@ Villa boutique 8 phòng độc đáo giữa lòng phố cổ Hội An, nơi ki�
 - ✅ Check-in mobile không tiếp xúc
 - ✅ Concierge 24/7 bằng tiếng Việt/Anh
 
+**📱 Social Media:**
+- Facebook: [facebook.com/themansionhoian](https://www.facebook.com/themansionhoian)
+- Instagram: [instagram.com/themansionhoian](https://www.instagram.com/themansionhoian/)
+
 #### **69 Boutique Hotel** 
 **🌐 Đặt phòng trực tiếp: [69bq.minova.vn](https://69bq.minova.vn)**
 
@@ -377,6 +372,19 @@ Boutique hotel 20 phòng tại trung tâm Hà Nội, kết hợp hoàn hảo gi�
 - ✅ Co-working space miễn phí
 - ✅ Smart room technology (IoT)
 - ✅ Breakfast buffet với đặc sản địa phương
+
+**⭐ Đánh giá khách hàng:**
+- **Go2Joy**: 4.86/5 điểm (hơn 4,000 lượt đánh giá)
+- **Booking.com**: 9.0/10 điểm
+
+**📱 Social Media:**
+- Facebook: [facebook.com/69boutiquebyminova](https://www.facebook.com/69boutiquebyminova)
+
+#### **Chapter Dining & Grill**
+Nhà hàng Michelin Selected 2023 thuộc The Mansion Hoi An
+
+**📱 Social Media:**
+- Facebook: [facebook.com/Chapterhanoi](https://www.facebook.com/Chapterhanoi)
 
 **💡 Tại sao đặt trực tiếp có lợi hơn OTA:**
 ```
@@ -457,8 +465,19 @@ Công cụ kiểm tra và tối ưu hóa giá phòng trên các OTA hàng đầu
 **Trụ sở chính**: 506A, Tòa nhà Ford Thăng Long, 105 Láng Hạ, Đống Đa, Hà Nội
 
 **Hotline**: 02 466 636 480  
-**Email**: info@themansions.vn  
-**Website**: www.themansions.vn
+**Email**: info@minova.vn  
+**Website**: www.minova.vn
+
+### 📱 Kết Nối Với Chúng Tôi
+
+#### **Minova Group**
+- **LinkedIn**: [linkedin.com/company/minova-group](https://www.linkedin.com/company/minova-group)
+- **Facebook**: [facebook.com/minovavietnam](https://www.facebook.com/minovavietnam)
+
+#### **Các Thương Hiệu Khách Sạn**
+- **The Mansion Hoi An**: [Facebook](https://www.facebook.com/themansionhoian) | [Instagram](https://www.instagram.com/themansionhoian/)
+- **69 Boutique by Minova**: [Facebook](https://www.facebook.com/69boutiquebyminova)
+- **Chapter Dining & Grill**: [Facebook](https://www.facebook.com/Chapterhanoi)
 
 ### 📅 Đặt Lịch Tư Vấn Miễn Phí
 

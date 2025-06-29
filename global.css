@@ -1,0 +1,1300 @@
+/* ================================
+   MINOVA BUTTON SYSTEM
+   Comprehensive button definitions for all use cases
+   ================================ */
+
+/* ========== BASE BUTTON STYLES ========== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn:focus {
+    outline: 2px solid var(--minova-gold);
+    outline-offset: 2px;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+/* ========== PRIMARY BUTTONS ========== */
+
+/* btn-primary: Main CTA - Tư vấn miễn phí, Đặt lịch tư vấn */
+.btn-primary {
+    background: linear-gradient(135deg, var(--minova-gold), var(--gold-dark));
+    color: var(--minova-charcoal);
+    box-shadow: 0 4px 15px rgba(242, 201, 98, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(242, 201, 98, 0.4);
+    background: linear-gradient(135deg, var(--gold-light), var(--minova-gold));
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(242, 201, 98, 0.3);
+}
+
+/* btn-booking: Hotel booking CTA - Đặt phòng trực tiếp */
+.btn-booking {
+    background: linear-gradient(135deg, var(--minova-terracotta), var(--terracotta-light));
+    color: white;
+    box-shadow: 0 4px 15px rgba(184, 84, 80, 0.3);
+}
+
+.btn-booking:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(184, 84, 80, 0.4);
+    background: linear-gradient(135deg, var(--terracotta-light), var(--minova-terracotta));
+}
+
+.btn-booking:active {
+    transform: translateY(0);
+}
+
+/* btn-success: Confirmation actions - Hoàn thành, Xác nhận */
+.btn-success {
+    background: linear-gradient(135deg, var(--minova-sage), var(--sage-light));
+    color: white;
+    box-shadow: 0 4px 15px rgba(90, 122, 107, 0.3);
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(90, 122, 107, 0.4);
+    background: linear-gradient(135deg, var(--sage-light), var(--minova-sage));
+}
+
+.btn-success:active {
+    transform: translateY(0);
+}
+
+/* ========== SECONDARY BUTTONS ========== */
+
+/* btn-secondary: Secondary actions - Xem chi tiết, Tìm hiểu thêm */
+.btn-secondary {
+    background: transparent;
+    color: var(--minova-terracotta);
+    border: 2px solid var(--minova-terracotta);
+}
+
+.btn-secondary:hover {
+    background: var(--minova-terracotta);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.btn-secondary:active {
+    transform: translateY(0);
+}
+
+/* btn-outline: Alternative actions - Khám phá dịch vụ, Xem portfolio */
+.btn-outline {
+    background: transparent;
+    color: var(--minova-sage);
+    border: 2px solid var(--minova-sage);
+}
+
+.btn-outline:hover {
+    background: var(--minova-sage);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.btn-outline:active {
+    transform: translateY(0);
+}
+
+/* btn-outline-gold: Premium outline actions */
+.btn-outline-gold {
+    background: transparent;
+    color: var(--gold-dark);
+    border: 2px solid var(--minova-gold);
+}
+
+.btn-outline-gold:hover {
+    background: var(--minova-gold);
+    color: var(--minova-charcoal);
+    transform: translateY(-1px);
+}
+
+.btn-outline-gold:active {
+    transform: translateY(0);
+}
+
+/* ========== SUBTLE BUTTONS ========== */
+
+/* btn-ghost: Subtle actions - Links, Minor CTAs */
+.btn-ghost {
+    background: transparent;
+    color: var(--minova-sage);
+    border: 1px solid transparent;
+    padding: 12px 24px;
+}
+
+.btn-ghost:hover {
+    background: var(--cream-light);
+    color: var(--minova-charcoal);
+    border-color: var(--minova-cream);
+}
+
+.btn-ghost:active {
+    background: var(--minova-cream);
+}
+
+/* btn-text: Text-only buttons - Navigation, Light actions */
+.btn-text {
+    background: transparent;
+    color: var(--minova-sage);
+    border: none;
+    padding: 8px 16px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: transparent;
+}
+
+.btn-text:hover {
+    color: var(--minova-terracotta);
+    text-decoration-color: var(--minova-terracotta);
+}
+
+.btn-text:active {
+    color: var(--minova-charcoal);
+}
+
+/* ========== SPECIALIZED BUTTONS ========== */
+
+/* btn-cta-header: Navigation CTA */
+.btn-cta-header {
+    background: linear-gradient(135deg, var(--minova-gold), var(--gold-dark));
+    color: var(--minova-charcoal);
+    padding: 12px 24px;
+    font-size: 14px;
+    box-shadow: 0 4px 15px rgba(242, 201, 98, 0.3);
+}
+
+.btn-cta-header:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(242, 201, 98, 0.4);
+    background: linear-gradient(135deg, var(--gold-light), var(--minova-gold));
+}
+
+/* btn-contact: Contact section CTA */
+.btn-contact {
+    background: var(--minova-gold);
+    color: var(--minova-charcoal);
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 6px 20px rgba(242, 201, 98, 0.4);
+}
+
+.btn-contact:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(242, 201, 98, 0.5);
+    background: var(--gold-light);
+}
+
+/* btn-info: Information actions - Xem thêm thông tin */
+.btn-info {
+    background: var(--cream-light);
+    color: var(--minova-charcoal);
+    border: 1px solid var(--minova-cream);
+}
+
+.btn-info:hover {
+    background: var(--minova-cream);
+    border-color: var(--minova-gold);
+    transform: translateY(-1px);
+}
+
+.btn-info:active {
+    transform: translateY(0);
+}
+
+/* ========== BUTTON SIZES ========== */
+
+/* Small buttons */
+.btn-sm {
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.btn-sm.btn-ghost {
+    padding: 8px 16px;
+}
+
+.btn-sm.btn-text {
+    padding: 6px 12px;
+}
+
+/* Large buttons */
+.btn-lg {
+    padding: 20px 40px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btn-lg.btn-ghost {
+    padding: 16px 32px;
+}
+
+.btn-lg.btn-text {
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+/* Extra large buttons */
+.btn-xl {
+    padding: 24px 48px;
+    font-size: 18px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+/* ========== BUTTON GROUPS ========== */
+.btn-group {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.btn-group.btn-group-stack {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.btn-group.btn-group-center {
+    justify-content: center;
+}
+
+.btn-group.btn-group-between {
+    justify-content: space-between;
+}
+
+/* Connected buttons */
+.btn-group.btn-group-connected {
+    gap: 0;
+}
+
+.btn-group.btn-group-connected .btn:not(:first-child) {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group.btn-group-connected .btn:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* ========== BUTTON STATES ========== */
+
+/* Loading state */
+.btn-loading {
+    position: relative;
+    color: transparent !important;
+}
+
+.btn-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    border: 2px solid transparent;
+    border-top-color: currentColor;
+    border-radius: 50%;
+    animation: btn-spin 0.8s linear infinite;
+}
+
+@keyframes btn-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ========== ICON BUTTONS ========== */
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-icon-only {
+    padding: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.btn-icon-only.btn-sm {
+    padding: 12px;
+    width: 36px;
+    height: 36px;
+}
+
+.btn-icon-only.btn-lg {
+    padding: 20px;
+    width: 56px;
+    height: 56px;
+}
+
+/* Icon positioning */
+.btn-icon-left .btn-icon {
+    order: -1;
+}
+
+.btn-icon-right .btn-icon {
+    order: 1;
+}
+
+/* ========== RESPONSIVE BUTTON STYLES ========== */
+@media (max-width: 768px) {
+    .btn {
+        padding: 14px 24px;
+        font-size: 14px;
+    }
+    
+    .btn-lg {
+        padding: 16px 32px;
+        font-size: 15px;
+    }
+    
+    .btn-xl {
+        padding: 18px 36px;
+        font-size: 16px;
+    }
+    
+    .btn-group {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .btn-group.btn-group-mobile-row {
+        flex-direction: row;
+        gap: 8px;
+    }
+    
+    .btn-group.btn-group-mobile-row .btn {
+        flex: 1;
+        font-size: 13px;
+        padding: 12px 16px;
+    }
+}
+
+/* ========== ACCESSIBILITY ENHANCEMENTS ========== */
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+        transition: none;
+    }
+    
+    .btn:hover {
+        transform: none;
+    }
+}
+
+@media (prefers-contrast: high) {
+    .btn {
+        border: 2px solid currentColor;
+    }
+    
+    .btn-primary {
+        border-color: var(--minova-charcoal);
+    }
+    
+    .btn-ghost {
+        border-color: currentColor;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .btn {
+        min-height: 44px; /* iOS touch target minimum */
+        padding: 12px 24px;
+    }
+    
+    .btn:hover {
+        transform: none;
+    }
+    
+    .btn:active {
+        transform: scale(0.98);
+    }
+}
+
+/* ========== USAGE EXAMPLES & COMMENTS ========== */
+
+/*
+BUTTON USAGE GUIDE:
+
+1. btn-primary: Main call-to-action
+   Usage: "Tư Vấn Miễn Phí", "Đặt Lịch Ngay", "Liên Hệ Ngay"
+
+2. btn-booking: Hotel booking specific
+   Usage: "Đặt Phòng Trực Tiếp", "Book Now"
+
+3. btn-success: Positive confirmations
+   Usage: "Xác Nhận", "Hoàn Thành", "Chấp Nhận"
+
+4. btn-secondary: Important secondary actions
+   Usage: "Xem Chi Tiết", "Tìm Hiểu Thêm"
+
+5. btn-outline: Alternative actions
+   Usage: "Khám Phá Dịch Vụ", "Xem Portfolio"
+
+6. btn-outline-gold: Premium alternatives
+   Usage: "Dịch Vụ Premium", "Nâng Cấp"
+
+7. btn-ghost: Subtle actions
+   Usage: "Hủy", "Quay Lại", "Bỏ Qua"
+
+8. btn-text: Light actions
+   Usage: "Xem thêm", "Chi tiết", Navigation links
+
+9. btn-info: Information actions
+   Usage: "Thông Tin Thêm", "Hướng Dẫn"
+
+EXAMPLES:
+<a href="#" class="btn btn-primary">Tư Vấn Miễn Phí</a>
+<a href="#" class="btn btn-booking btn-lg">🏨 Đặt Phòng Trực Tiếp</a>
+<button class="btn btn-secondary btn-sm">Xem Chi Tiết</button>
+<div class="btn-group">
+    <a href="#" class="btn btn-primary">Đặt Lịch</a>
+    <a href="#" class="btn btn-outline">Tìm Hiểu Thêm</a>
+</div>
+*/
+
+/* ================================
+   PORTFOLIO SECTION STYLES
+   ================================ */
+
+.portfolio {
+    padding: 6rem 2rem;
+    background: white;
+}
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Portfolio Category Tabs */
+.portfolio-categories {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.portfolio-tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border: 2px solid var(--minova-cream);
+    background: white;
+    color: var(--minova-sage);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.portfolio-tab:hover {
+    border-color: var(--minova-gold);
+    color: var(--minova-charcoal);
+    transform: translateY(-1px);
+}
+
+.portfolio-tab.active {
+    background: var(--minova-gold);
+    border-color: var(--minova-gold);
+    color: var(--minova-charcoal);
+    box-shadow: 0 4px 15px rgba(242, 201, 98, 0.3);
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.portfolio-item {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(242, 201, 98, 0.15);
+    transition: all 0.4s ease;
+    border: 1px solid rgba(242, 201, 98, 0.2);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.portfolio-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(242, 201, 98, 0.25);
+    border-color: var(--minova-gold);
+}
+
+/* Portfolio Item Image */
+.portfolio-image {
+    height: 200px;
+    background: linear-gradient(135deg, var(--minova-sage), var(--sage-light));
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.portfolio-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.portfolio-badge.running {
+    background: var(--minova-sage);
+    color: white;
+}
+
+.portfolio-badge.construction {
+    background: var(--minova-terracotta);
+    color: white;
+}
+
+.portfolio-badge.completed {
+    background: var(--minova-gold);
+    color: var(--minova-charcoal);
+}
+
+.portfolio-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    color: white;
+    padding: 1.5rem;
+}
+
+.portfolio-overlay h4 {
+    margin-bottom: 0.5rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.portfolio-overlay p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+/* Portfolio Content */
+.portfolio-content {
+    padding: 1.5rem;
+}
+
+.portfolio-title {
+    margin-bottom: 0.5rem;
+    color: var(--minova-charcoal);
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portfolio-location {
+    color: var(--minova-sage);
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.portfolio-description {
+    color: var(--minova-charcoal);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.portfolio-metrics {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.metric {
+    background: var(--cream-light);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 12px;
+    color: var(--minova-charcoal);
+    border: 1px solid rgba(242, 201, 98, 0.2);
+}
+
+.metric strong {
+    color: var(--minova-terracotta);
+    font-weight: 600;
+}
+
+.portfolio-actions {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+/* Portfolio Image Backgrounds */
+.mansion-dalat {
+    background: linear-gradient(135deg, var(--minova-terracotta), var(--terracotta-light));
+}
+
+.commercial-69 {
+    background: linear-gradient(135deg, var(--minova-charcoal), #555);
+}
+
+.commercial-cityblock {
+    background: linear-gradient(135deg, var(--minova-gold), var(--gold-dark));
+}
+
+.resort-sahana {
+    background: linear-gradient(135deg, var(--sage-light), var(--minova-sage));
+}
+
+.resort-phuquoc {
+    background: linear-gradient(135deg, #4A90E2, #357ABD);
+}
+
+.office-fujikin {
+    background: linear-gradient(135deg, var(--minova-charcoal), var(--minova-sage));
+}
+
+/* ================================
+   OTA TOOL SECTION STYLES
+   ================================ */
+
+.ota-tool {
+    padding: 6rem 2rem;
+    background: linear-gradient(135deg, var(--cream-light) 0%, white 100%);
+}
+
+.ota-tool-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ota-tool-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* Tool Information */
+.tool-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.tool-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.tool-title {
+    margin-bottom: 0.5rem;
+    color: var(--minova-charcoal);
+}
+
+.tool-subtitle {
+    color: var(--minova-sage);
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+}
+
+.tool-subtitle strong {
+    color: var(--minova-terracotta);
+    font-weight: 600;
+}
+
+.tool-description {
+    margin-bottom: 2rem;
+}
+
+.tool-features {
+    margin-bottom: 2rem;
+}
+
+.tool-features h4 {
+    margin-bottom: 1rem;
+    color: var(--minova-charcoal);
+}
+
+.feature-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.feature-list li {
+    padding: 0.8rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+    border-bottom: 1px solid rgba(242, 201, 98, 0.2);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.feature-list li:last-child {
+    border-bottom: none;
+}
+
+.feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--minova-terracotta);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.feature-list strong {
+    color: var(--minova-charcoal);
+    font-weight: 600;
+}
+
+/* Tool Benefits */
+.tool-benefits {
+    margin-bottom: 2rem;
+}
+
+.tool-benefits h4 {
+    margin-bottom: 1rem;
+    color: var(--minova-charcoal);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.benefit-stat {
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: 1px solid rgba(242, 201, 98, 0.2);
+    transition: all 0.3s ease;
+}
+
+.benefit-stat:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(242, 201, 98, 0.15);
+}
+
+.stat-number {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--minova-terracotta);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: var(--minova-sage);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Tool Testimonial */
+.tool-testimonial {
+    background: rgba(242, 201, 98, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    border-left: 4px solid var(--minova-gold);
+}
+
+.tool-testimonial blockquote {
+    font-style: italic;
+    margin: 0 0 1rem 0;
+    color: var(--minova-charcoal);
+    line-height: 1.6;
+}
+
+.tool-testimonial cite {
+    color: var(--minova-sage);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tool-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Tool Preview Visual */
+.ota-tool-visual {
+    display: flex;
+    justify-content: center;
+}
+
+.tool-preview {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+    border: 1px solid rgba(242, 201, 98, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.preview-header {
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--minova-cream);
+    margin-bottom: 1.5rem;
+}
+
+.preview-title {
+    font-weight: 600;
+    color: var(--minova-charcoal);
+    font-size: 14px;
+}
+
+/* Chart Styles */
+.preview-chart {
+    margin-bottom: 1.5rem;
+}
+
+.chart-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background: var(--cream-light);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.chart-item:hover {
+    background: var(--minova-cream);
+}
+
+.chart-label {
+    width: 80px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--minova-charcoal);
+}
+
+.chart-bar {
+    flex: 1;
+    height: 8px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.chart-bar.booking {
+    background: #003580;
+}
+
+.chart-bar.agoda {
+    background: #FF6B35;
+}
+
+.chart-bar.direct {
+    background: var(--minova-gold);
+}
+
+.chart-bar.expedia {
+    background: #FFC72C;
+}
+
+.chart-value {
+    font-weight: 600;
+    color: var(--minova-charcoal);
+    font-size: 14px;
+    min-width: 40px;
+    text-align: right;
+}
+
+/* Alert Styles */
+.preview-alerts {
+    border-top: 1px solid var(--minova-cream);
+    padding-top: 1rem;
+}
+
+.alert-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.alert-item:last-child {
+    margin-bottom: 0;
+}
+
+.alert-item.warning {
+    background: rgba(255, 107, 53, 0.1);
+    border-left: 3px solid #FF6B35;
+    color: var(--minova-charcoal);
+}
+
+.alert-item.success {
+    background: rgba(90, 122, 107, 0.1);
+    border-left: 3px solid var(--minova-sage);
+    color: var(--minova-charcoal);
+}
+
+.alert-icon {
+    font-size: 14px;
+}
+
+.alert-text {
+    flex: 1;
+}
+
+/* ================================
+   NEWS SECTION STYLES
+   ================================ */
+
+.news {
+    padding: 6rem 2rem;
+    background: white;
+}
+
+.news-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.news-section-title {
+    margin-bottom: 2rem;
+    color: var(--minova-charcoal);
+    border-bottom: 2px solid var(--minova-cream);
+    padding-bottom: 1rem;
+}
+
+/* Featured Post */
+.featured-post {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(242, 201, 98, 0.15);
+    border: 1px solid rgba(242, 201, 98, 0.2);
+    transition: all 0.3s ease;
+}
+
+.featured-post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(242, 201, 98, 0.2);
+}
+
+.post-image {
+    height: 200px;
+    background: linear-gradient(135deg, var(--minova-terracotta), var(--terracotta-light));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.post-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: var(--minova-gold);
+    color: var(--minova-charcoal);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.post-content {
+    padding: 1.5rem;
+}
+
+.post-title {
+    margin-bottom: 1rem;
+    color: var(--minova-charcoal);
+    line-height: 1.4;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.post-excerpt {
+    color: var(--minova-sage);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+}
+
+.post-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 12px;
+    color: var(--minova-sage);
+}
+
+.post-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+/* LinkedIn Posts */
+.linkedin-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.linkedin-post {
+    background: white;
+    border: 1px solid rgba(242, 201, 98, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.linkedin-post:hover {
+    box-shadow: 0 8px 25px rgba(242, 201, 98, 0.15);
+    border-color: var(--minova-gold);
+    transform: translateY(-2px);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-avatar {
+    width: 40px;
+    height: 40px;
+    background: var(--minova-gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--minova-charcoal);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.post-info h5 {
+    margin: 0;
+    color: var(--minova-charcoal);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.post-time {
+    color: var(--minova-sage);
+    font-size: 12px;
+}
+
+.post-body {
+    margin-bottom: 1rem;
+    color: var(--minova-charcoal);
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.post-engagement {
+    display: flex;
+    gap: 1rem;
+    font-size: 12px;
+    color: var(--minova-sage);
+    padding-top: 1rem;
+    border-top: 1px solid var(--cream-light);
+}
+
+.post-engagement span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.post-engagement span:hover {
+    color: var(--minova-terracotta);
+}
+
+.linkedin-cta {
+    text-align: center;
+}
+
+/* ================================
+   RESPONSIVE STYLES FOR NEW SECTIONS
+   ================================ */
+
+@media (max-width: 768px) {
+    /* Portfolio Responsive */
+    .portfolio-categories {
+        gap: 0.5rem;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-bottom: 1rem;
+    }
+
+    .portfolio-tab {
+        padding: 8px 16px;
+        font-size: 12px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .portfolio-actions {
+        flex-direction: column;
+    }
+
+    .portfolio-metrics {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* OTA Tool Responsive */
+    .ota-tool-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .tool-actions {
+        flex-direction: column;
+    }
+
+    .tool-preview {
+        max-width: 100%;
+    }
+
+    /* News Responsive */
+    .news-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .post-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .post-engagement {
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio {
+        padding: 4rem 1rem;
+    }
+
+    .ota-tool {
+        padding: 4rem 1rem;
+    }
+
+    .news {
+        padding: 4rem 1rem;
+    }
+
+    .portfolio-categories {
+        padding: 0 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+    .tool-preview {
+        padding: 1rem;
+    }
+
+    .featured-post,
+    .linkedin-post {
+        padding: 1rem;
+    }
+}
